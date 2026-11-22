@@ -1,0 +1,59 @@
+name: Social post
+description: Propose one social media post when you cannot commit a file
+title: "[post] "
+labels: ["social-post"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read `CONTENT-RULES.md` first. No prices, no invented dishes, no dietary or allergen
+        claims, nothing about private hire beyond "up to 90 seated".
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [instagram, gbp, facebook]
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options: [feed-portrait, feed-square, story, reel, carousel, gbp-post]
+    validations:
+      required: true
+  - type: input
+    id: publish_date
+    attributes:
+      label: Intended publish date (YYYY-MM-DD)
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: Action
+      options: [ORDER, BOOK, MENU, ENQUIRE, NONE]
+    validations:
+      required: true
+  - type: textarea
+    id: caption
+    attributes:
+      label: Caption
+    validations:
+      required: true
+  - type: input
+    id: image_brief
+    attributes:
+      label: Image brief - what the photo or graphic should show
+    validations:
+      required: true
+  - type: input
+    id: alt_text
+    attributes:
+      label: Alt text - what is in the image, for a screen reader
+    validations:
+      required: true
+  - type: input
+    id: hashtags
+    attributes:
+      label: Hashtags - five to eight, lower case, local first (leave blank for gbp)
