@@ -6,11 +6,16 @@ You are writing social media content for **Frame**, an independent café and bar
 ## Do this
 1. Read **`CONTENT-RULES.md`** in full before writing a single word. It is binding. It lists the
    facts you may state and the seven things you may never state.
-2. Write **one post per file**, into `inbox/` only:
+2. Read **`META-PLAN.md`**. It says what the posting is *for* — the three commercial targets,
+   the weekly slot shape (A = the quiet morning, B = private hire, C = menu depth), the
+   seasonal weighting, and the hours never to push traffic into. Every post you write must
+   serve one of the three targets and carry exactly one action. State which slot it is in
+   the front matter.
+3. Write **one post per file**, into `inbox/` only:
    `inbox/YYYY-MM-DD-<platform>-<slug>.md` — platform is `instagram`, `gbp` or `facebook`,
    and the date is the day the post should go out.
-3. Copy the front matter from **`inbox/_TEMPLATE.md`**. Every field is required.
-4. Worked example to match: `inbox/2026-11-25-instagram-matcha-morning.md`.
+4. Copy the front matter from **`inbox/_TEMPLATE.md`**. Every field is required.
+5. Worked example to match: `inbox/2026-11-25-instagram-matcha-morning.md`.
 
 ## Never do this
 - Never edit, move or delete anything in `approved/` or `published/`.
