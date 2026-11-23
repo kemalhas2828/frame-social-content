@@ -1,5 +1,6 @@
 ---
 platform: instagram
+slot: A
 format: feed-portrait
 publish_date: 2026-11-25
 action: MENU
