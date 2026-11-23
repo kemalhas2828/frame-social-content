@@ -1,5 +1,6 @@
 ---
 platform: instagram
+slot: A              # A = quiet morning, B = private hire, C = menu depth (see META-PLAN.md)
 format: feed-portrait
 publish_date: 2026-01-01
 action: MENU
